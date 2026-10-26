@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>James' Group - Collaborators</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+  }
+
+  /* Header */
+  header {
+    background: #0f172a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+  header p {
+    color: #94a3b8;
+    font-size: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+
+  .group-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .group-title h2 {
+    font-size: 26px;
+  }
+  .group-title span {
+    color: #3b82f6;
+  }
+
+  /* Flexbox for 3 members */
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .member-card {
+    background: white;
+    width: 300px;
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: 0.3s;
+  }
+  .member-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+  }
+
+  .avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #3b82f6;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px auto;
+  }
+
+  .member-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .role {
+    color: #3b82f6;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .desc {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .member-card:nth-child(2) .avatar { background: #10b981; }
+  .member-card:nth-child(3) .avatar { background: #f59e0b; }
+
+  footer {
+    text-align: center;
+    padding: 30px;
+    color: #94a3b8;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><marquee behavior="alternate" direction="left" scrollamount="10">JAMES' GROUP</marquee></h1>
+  <p style="border: rgb(30, 210, 42); background: yellow; color: red; height: 70px; text-justify: inter-cluster;">Collaboration • Innovation • Teamwork</p>
+</header>
+
+<div class="container">
+  <div class="group-title">
+    <h2 style="color: indigo;"><marquee behavior= direction="left" scrollamount="5">Our Collaborators</marquee></h2>
+  </div>
+
+  <section class="flex-container">
+    
+    <!-- KARUHANGA JAMES -->
+    <div class="member-card">
+
+      <img src="jam.jpg" height="300" alt="Karuhanga James">
+      <h3 style="border: 10px; color: darkmagenta; background: yellow;">Karuhanga James</h3>
+      <div class="role" style="background-color: green; color: #f8fafc;">Group Leader</div>
+      <p class="desc" style="color: chartreuse; background: red;">Leads the project and manages collaboration between all members.</p>
+      <a href="MID SEMISTER PROJECT/james.html" style="color: blue; text-decoration: underline;">View James' Mid-Semester Work</a>
+    </div>
+
+    <!-- MEMBER 2 -->
+    <div class="member-card">
+      <img src="joan.jpg" height="300" alt="Kiconco Joan">
+      
+      <h3>Kiconco Joan</h3>
+      <div class="role" style="background-color: #10b981; color:#e2e8f0">Developer</div>
+    
+      <p class="desc" style="color: #f8fafc; background: #10b981; color:blue">Handles coding and technical implementation of our work.</p>
+    </div>
+
+    <!-- MEMBER 3 -->
+    <div class="member-card">
+      <img src="jen.jpeg" height="300" alt="Member 3">
+      <h3>Jennifer</h3>
+      <div class="role" style="background-color: #510bf5; color: #e2e8f0;">Designer</div>
+      <p class="desc" style="color: #f8fafc; background: magenta;">Creates the design and ensures the page looks clean and clear.</p>
+    </div>
+
+  </section>
+</div>
+
+<footer style="background: #0f172a; color: white; padding: 20px; text-align: center; color: rgb(195, 255, 0);" </footer>>
+  © 2026 James' Group - All Rights Reserved
+</footer>
+
+</body>
+</html>
